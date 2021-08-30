@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing admin store / context for dispatch actions should render AdminContext without error and with children 1`] = `
+<DocumentFragment>
+  <div>
+    TEST_CHILD
+  </div>
+</DocumentFragment>
+`;

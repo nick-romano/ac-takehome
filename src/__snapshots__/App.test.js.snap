@@ -2,327 +2,513 @@
 
 exports[`App can add a shelf 1`] = `
 <DocumentFragment>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-root-1 MuiPaper-elevation4"
+  >
+    <div
+      align="flex-end"
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5"
+        >
+          Record Shelves App
+        </h5>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-userMenuButtonItem-2 MuiGrid-item MuiGrid-grid-xs-2"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-userMenuButton-3"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Change User
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
   <div
     class="MuiContainer-root MuiContainer-maxWidthLg"
   >
-    <h1>
-      Record Shelves App
-    </h1>
     <div
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
     >
       <div
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+        style="text-align: left;"
       >
-        <h2>
-          Records
-        </h2>
-        <ul
-          class="MuiList-root MuiList-padding"
-          style="background-color: rgb(245, 245, 245); height: calc(100vh - 12rem); overflow: scroll;"
+        <nav
+          aria-labelledby="nested-list-subheader"
+          class="MuiList-root makeStyles-root-4 MuiList-padding MuiList-subheader"
         >
-          <li
-            class="MuiListItem-root MuiListItem-gutters"
+          <div
+            class="MuiListSubheader-root MuiListSubheader-sticky MuiListSubheader-gutters"
+            id="nested-list-subheader"
+          >
+            Catalog
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root makeStyles-selected-7 makeStyles-listItem-6 MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
           >
             <div
-              class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
-              style="width: 260px;"
+              class="MuiListItemIcon-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm0-5.5c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiListItemText-root"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                Records
+              </span>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root makeStyles-listItem-6 MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiListItemIcon-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M2 6H0v5h.01L0 20c0 1.1.9 2 2 2h18v-2H2V6zm20-2h-8l-2-2H6c-1.1 0-1.99.9-1.99 2L4 16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7 15l4.5-6 3.5 4.51 2.5-3.01L21 15H7z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiListItemText-root"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                Shelves
+              </span>
+            </div>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </div>
+          <div
+            class="MuiCollapse-container MuiCollapse-entered"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
             >
               <div
-                class="MuiCardContent-root"
-              >
-                <p>
-                  Title: Dirty Dancing
-                </p>
-                <p>
-                  Artist(s):Swayzak
-                </p>
-                <p>
-                  Label: !K7 Records
-                </p>
-                <p>
-                  Formats: Vinyl
-                </p>
-              </div>
-              <div
-                class="MuiCardActions-root MuiCardActions-spacing"
+                class="MuiCollapse-wrapperInner"
               >
                 <div
-                  class="MuiFormControl-root"
-                  style="min-width: 120px;"
+                  class="MuiList-root"
                 >
-                  <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink="false"
-                  >
-                    Add to shelf
-                  </label>
                   <div
-                    class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-                    data-testid="add-shelf"
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiListItem-root makeStyles-nested-5 makeStyles-listItem-6 MuiListItem-gutters MuiListItem-button"
+                    role="button"
+                    tabindex="0"
                   >
                     <div
-                      aria-haspopup="listbox"
-                      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-                      role="button"
-                      tabindex="0"
+                      class="MuiListItemIcon-root"
                     >
-                      <span>
-                        ​
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                      >
+                        first shelf
                       </span>
                     </div>
-                    <input
-                      aria-hidden="true"
-                      class="MuiSelect-nativeInput"
-                      tabindex="-1"
-                      value=""
+                    <span
+                      class="MuiTouchRipple-root"
                     />
-                    <svg
-                      aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSelect-icon"
-                      focusable="false"
-                      viewBox="0 0 24 24"
+                  </div>
+                  <div
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiListItem-root makeStyles-nested-5 makeStyles-listItem-6 MuiListItem-gutters MuiListItem-button"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiListItemIcon-root"
                     >
-                      <path
-                        d="M7 10l5 5 5-5z"
-                      />
-                    </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                      >
+                        New Shelf
+                      </span>
+                    </div>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
                   </div>
                 </div>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </nav>
       </div>
       <div
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
       >
         <h2>
-          Shelves
+          Records
         </h2>
-        <ul
-          class="MuiList-root MuiList-padding"
-          style="height: calc(100vh - 12rem); overflow: scroll;"
+        <div
+          class="MuiPaper-root MuiList-root MuiList-padding MuiPaper-elevation0 MuiPaper-rounded"
+          style="background-color: rgb(245, 245, 245); height: calc(100vh - 12rem); overflow: scroll;"
         >
           <div
-            class="MuiBox-root MuiBox-root-1"
-            style="display: flex; align-items: center; justify-content: space-between;"
+            class="MuiGrid-root MuiGrid-container"
           >
-            <h3
-              style="cursor: pointer;"
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
             >
-              first shelf
-            </h3>
-            <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
-              style="margin-left: 1rem;"
-              tabindex="0"
-              type="button"
-            >
-              <span
-                class="MuiButton-label"
+              <li
+                class="MuiListItem-root MuiListItem-gutters"
               >
-                Remove
-              </span>
-              <span
-                class="MuiTouchRipple-root"
-              />
-            </button>
+                <div
+                  class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+                  style="width: 260px;"
+                >
+                  <div
+                    class="MuiCardContent-root"
+                  >
+                    <p>
+                      Title: Dirty Dancing
+                    </p>
+                    <p>
+                      Artist(s):Swayzak
+                    </p>
+                    <p>
+                      Label: !K7 Records
+                    </p>
+                    <p>
+                      Formats: Vinyl
+                    </p>
+                  </div>
+                  <div
+                    class="MuiCardActions-root MuiCardActions-spacing"
+                  >
+                    <div
+                      class="MuiFormControl-root"
+                      style="min-width: 120px;"
+                    >
+                      <label
+                        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                        data-shrink="false"
+                      >
+                        Add to shelf
+                      </label>
+                      <div
+                        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                        data-testid="add-shelf"
+                      >
+                        <div
+                          aria-haspopup="listbox"
+                          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                          role="button"
+                          tabindex="0"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </div>
+                        <input
+                          aria-hidden="true"
+                          class="MuiSelect-nativeInput"
+                          tabindex="-1"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSelect-icon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M7 10l5 5 5-5z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
           </div>
-          <li
-            class="MuiListItem-root MuiListItem-gutters"
-            style="background-color: rgb(245, 245, 245); min-height: 10rem; margin-bottom: 1rem;"
-          >
-            <ul
-              class="MuiList-root MuiList-padding"
-              style="display: flex; flex-direction: row; overflow: scroll;"
-            >
-              <p>
-                No records in shelf
-              </p>
-            </ul>
-          </li>
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained"
-            tabindex="0"
-            type="button"
-          >
-            <span
-              class="MuiButton-label"
-            >
-              Add Shelf
-            </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
-          </button>
-        </ul>
+        </div>
       </div>
     </div>
   </div>
+  <div />
+  <div />
 </DocumentFragment>
 `;
 
 exports[`App can remove a shelf 1`] = `
 <DocumentFragment>
+  <header
+    class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-root-8 MuiPaper-elevation4"
+  >
+    <div
+      align="flex-end"
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5"
+        >
+          Record Shelves App
+        </h5>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-userMenuButtonItem-9 MuiGrid-item MuiGrid-grid-xs-2"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-userMenuButton-10"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Change User
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
   <div
     class="MuiContainer-root MuiContainer-maxWidthLg"
   >
-    <h1>
-      Record Shelves App
-    </h1>
     <div
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
     >
       <div
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+        style="text-align: left;"
       >
-        <h2>
-          Records
-        </h2>
-        <ul
-          class="MuiList-root MuiList-padding"
-          style="background-color: rgb(245, 245, 245); height: calc(100vh - 12rem); overflow: scroll;"
+        <nav
+          aria-labelledby="nested-list-subheader"
+          class="MuiList-root makeStyles-root-11 MuiList-padding MuiList-subheader"
         >
-          <li
-            class="MuiListItem-root MuiListItem-gutters"
+          <div
+            class="MuiListSubheader-root MuiListSubheader-sticky MuiListSubheader-gutters"
+            id="nested-list-subheader"
+          >
+            Catalog
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root makeStyles-listItem-13 MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
           >
             <div
-              class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
-              style="width: 260px;"
+              class="MuiListItemIcon-root"
             >
-              <div
-                class="MuiCardContent-root"
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
               >
-                <p>
-                  Title: Dirty Dancing
-                </p>
-                <p>
-                  Artist(s):Swayzak
-                </p>
-                <p>
-                  Label: !K7 Records
-                </p>
-                <p>
-                  Formats: Vinyl
-                </p>
-              </div>
-              <div
-                class="MuiCardActions-root MuiCardActions-spacing"
-              />
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm0-5.5c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"
+                />
+              </svg>
             </div>
-          </li>
-        </ul>
-      </div>
-      <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
-      >
-        <h2>
-          Shelves
-        </h2>
-        <ul
-          class="MuiList-root MuiList-padding"
-          style="height: calc(100vh - 12rem); overflow: scroll;"
-        >
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained"
-            tabindex="0"
-            type="button"
-          >
-            <span
-              class="MuiButton-label"
+            <div
+              class="MuiListItemText-root"
             >
-              Add Shelf
-            </span>
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                Records
+              </span>
+            </div>
             <span
               class="MuiTouchRipple-root"
             />
-          </button>
-        </ul>
-      </div>
-    </div>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`App fetches records 1`] = `
-<DocumentFragment>
-  <div
-    class="MuiContainer-root MuiContainer-maxWidthLg"
-  >
-    <h1>
-      Record Shelves App
-    </h1>
-    <div
-      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
-    >
-      <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
-      >
-        <h2>
-          Records
-        </h2>
-        <ul
-          class="MuiList-root MuiList-padding"
-          style="background-color: rgb(245, 245, 245); height: calc(100vh - 12rem); overflow: scroll;"
-        >
-          <li
-            class="MuiListItem-root MuiListItem-gutters"
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root makeStyles-listItem-13 MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
           >
             <div
-              class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
-              style="width: 260px;"
+              class="MuiListItemIcon-root"
             >
-              <div
-                class="MuiCardContent-root"
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
               >
-                <p>
-                  Title: Dirty Dancing
-                </p>
-                <p>
-                  Artist(s):Swayzak
-                </p>
-                <p>
-                  Label: !K7 Records
-                </p>
-                <p>
-                  Formats: Vinyl
-                </p>
-              </div>
-              <div
-                class="MuiCardActions-root MuiCardActions-spacing"
-              />
+                <path
+                  d="M2 6H0v5h.01L0 20c0 1.1.9 2 2 2h18v-2H2V6zm20-2h-8l-2-2H6c-1.1 0-1.99.9-1.99 2L4 16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7 15l4.5-6 3.5 4.51 2.5-3.01L21 15H7z"
+                />
+              </svg>
             </div>
-          </li>
-        </ul>
-      </div>
-      <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
-      >
-        <h2>
-          Shelves
-        </h2>
-        <ul
-          class="MuiList-root MuiList-padding"
-          style="height: calc(100vh - 12rem); overflow: scroll;"
-        >
-          <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained"
-            tabindex="0"
-            type="button"
-          >
-            <span
-              class="MuiButton-label"
+            <div
+              class="MuiListItemText-root"
             >
-              Add Shelf
-            </span>
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+              >
+                Shelves
+              </span>
+            </div>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+              />
+            </svg>
             <span
               class="MuiTouchRipple-root"
             />
-          </button>
-        </ul>
+          </div>
+          <div
+            class="MuiCollapse-container MuiCollapse-entered"
+            style="min-height: 0px;"
+          >
+            <div
+              class="MuiCollapse-wrapper"
+            >
+              <div
+                class="MuiCollapse-wrapperInner"
+              >
+                <div
+                  class="MuiList-root"
+                >
+                  <div
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiListItem-root makeStyles-nested-12 makeStyles-listItem-13 MuiListItem-gutters MuiListItem-button"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      class="MuiListItemIcon-root"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="MuiListItemText-root"
+                    >
+                      <span
+                        class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                      >
+                        New Shelf
+                      </span>
+                    </div>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
+      />
     </div>
   </div>
+  <div />
+  <div />
 </DocumentFragment>
 `;

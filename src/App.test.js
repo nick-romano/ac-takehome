@@ -12,6 +12,13 @@ describe('App', () => {
     fetch.doMock();
     fetch.mockResponseOnce(
       JSON.stringify({
+        pagination: {
+          "page": 1,
+          "pages": 1,
+          "per_page": 25,
+          "items": 4,
+          "urls": {}
+        },
         releases: [
           {
             id: 76035,
@@ -33,6 +40,7 @@ describe('App', () => {
     const { asFragment } = render(<App />);
     await waitFor(() => expect(fetch).toHaveBeenCalledTimes(1));
 
+    fireEvent.click(screen.getByText('New Shelf'));
     fireEvent.click(screen.getByText('Add Shelf'));
     fireEvent.change(screen.getByTestId('add-shelf'), {
       target: { value: 'first shelf' },
@@ -46,11 +54,14 @@ describe('App', () => {
     const { asFragment } = render(<App />);
     await waitFor(() => expect(fetch).toHaveBeenCalledTimes(1));
 
+    fireEvent.click(screen.getByText('New Shelf'));
     fireEvent.click(screen.getByText('Add Shelf'));
     fireEvent.change(screen.getByTestId('add-shelf'), {
       target: { value: 'first shelf' },
     });
     fireEvent.click(screen.getByText('Submit'));
+    fireEvent.click(screen.getByText('Close'));
+    fireEvent.click(screen.getByText('first shelf'));
 
     fireEvent.click(screen.getByText('Remove'));
     expect(asFragment()).toMatchSnapshot();

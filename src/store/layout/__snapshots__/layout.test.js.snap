@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing layout store and reducer should render layout provider 1`] = `
+<DocumentFragment>
+  <div>
+    TEST_CHILD
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing catalog store should render with children 1`] = `
+<DocumentFragment>
+  <div>
+    TESTING!
+  </div>
+</DocumentFragment>
+`;

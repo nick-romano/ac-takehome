@@ -1,4 +1,7 @@
-let shelfIdCounter = 0;
+import { initialState } from "./context";
+
+// need to export this for testing purposes;
+export let shelfIdCounter = 0;
 
 export const reducer = (state, action) => {
   switch (action.type) {
@@ -32,6 +35,8 @@ export const reducer = (state, action) => {
       return {
         ...state,
         [action.shelfId]: {
+          // NOTE: I think there should be a set
+          // convention on 'shelfId' or 'id' in actions
           ...state[action.shelfId],
           records: state[action.shelfId].records.concat(action.recordId),
         },
@@ -78,6 +83,9 @@ export const reducer = (state, action) => {
           records: newShelf,
         },
       };
+      case 'resetState': 
+        return initialState
+
     default:
       throw new Error();
   }

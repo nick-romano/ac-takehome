@@ -100,6 +100,7 @@ export default function Shelf({ records, shelf, dispatch }) {
               ) : (
                 <p>No records in shelf</p>
               )}
+              {provided.placeholder}
             </List>
           )}
         </Droppable>
